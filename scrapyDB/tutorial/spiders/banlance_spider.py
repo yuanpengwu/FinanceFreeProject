@@ -34,7 +34,7 @@ class QuotesSpider(scrapy.Spider):
         items = response.css('span').extract()
         print(items)
         print("size of items = ", len(items))
-        filename = '%s-balance-sheet.txt' % stockSymbol
+        filename = '%s-balance.txt' % stockSymbol
         with open(filename, 'w+') as f:
             for item in items:
                 result = self.extractInfo(item)

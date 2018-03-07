@@ -7,3 +7,6 @@ scrapy
 https://docs.scrapy.org/en/latest/intro/install.html#intro-install				
 
 run program
+scrapy crawl financeQuotes
+scrapy crawl balanceQuotes
+scrapy crawl cashQuotes
